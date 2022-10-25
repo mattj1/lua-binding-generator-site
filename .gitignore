@@ -1,0 +1,8 @@
+.idea/
+
+bundle/
+bundle-dist
+dist/
+node_modules/
+
+webpack-stats.json

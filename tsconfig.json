@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "noEmit": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "inlineSourceMap": true,
+      "inlineSources": true
+    }
+  },
+  "compileOnSave": true,
+  "include" : [
+    "ts/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
